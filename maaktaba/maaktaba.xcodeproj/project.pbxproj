@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D297DBAC1F58F58A008C0D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297DBAB1F58F58A008C0D27 /* AppDelegate.swift */; };
+		D297DBB11F58F58A008C0D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D297DBAF1F58F58A008C0D27 /* Main.storyboard */; };
+		D297DBB31F58F58A008C0D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D297DBB21F58F58A008C0D27 /* Assets.xcassets */; };
+		D297DBB61F58F58A008C0D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D297DBB41F58F58A008C0D27 /* LaunchScreen.storyboard */; };
+		D297DBC11F58F58A008C0D27 /* maaktabaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297DBC01F58F58A008C0D27 /* maaktabaTests.swift */; };
+		D297DBCC1F58F58A008C0D27 /* maaktabaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297DBCB1F58F58A008C0D27 /* maaktabaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D297DBBD1F58F58A008C0D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D297DBA01F58F589008C0D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D297DBA71F58F589008C0D27;
+			remoteInfo = maaktaba;
+		};
+		D297DBC81F58F58A008C0D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D297DBA01F58F589008C0D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D297DBA71F58F589008C0D27;
+			remoteInfo = maaktaba;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D297DBA81F58F589008C0D27 /* maaktaba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maaktaba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D297DBAB1F58F58A008C0D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D297DBB01F58F58A008C0D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D297DBB21F58F58A008C0D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D297DBB51F58F58A008C0D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D297DBB71F58F58A008C0D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D297DBBC1F58F58A008C0D27 /* maaktabaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maaktabaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D297DBC01F58F58A008C0D27 /* maaktabaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maaktabaTests.swift; sourceTree = "<group>"; };
+		D297DBC21F58F58A008C0D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D297DBC71F58F58A008C0D27 /* maaktabaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maaktabaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D297DBCB1F58F58A008C0D27 /* maaktabaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maaktabaUITests.swift; sourceTree = "<group>"; };
+		D297DBCD1F58F58A008C0D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D297DBA51F58F589008C0D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D297DBB91F58F58A008C0D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D297DBC41F58F58A008C0D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D297DB9F1F58F589008C0D27 = {
+			isa = PBXGroup;
+			children = (
+				D297DBAA1F58F589008C0D27 /* maaktaba */,
+				D297DBBF1F58F58A008C0D27 /* maaktabaTests */,
+				D297DBCA1F58F58A008C0D27 /* maaktabaUITests */,
+				D297DBA91F58F589008C0D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D297DBA91F58F589008C0D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D297DBA81F58F589008C0D27 /* maaktaba.app */,
+				D297DBBC1F58F58A008C0D27 /* maaktabaTests.xctest */,
+				D297DBC71F58F58A008C0D27 /* maaktabaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D297DBAA1F58F589008C0D27 /* maaktaba */ = {
+			isa = PBXGroup;
+			children = (
+				D297DBAB1F58F58A008C0D27 /* AppDelegate.swift */,
+				D297DBAF1F58F58A008C0D27 /* Main.storyboard */,
+				D297DBB21F58F58A008C0D27 /* Assets.xcassets */,
+				D297DBB41F58F58A008C0D27 /* LaunchScreen.storyboard */,
+				D297DBB71F58F58A008C0D27 /* Info.plist */,
+			);
+			path = maaktaba;
+			sourceTree = "<group>";
+		};
+		D297DBBF1F58F58A008C0D27 /* maaktabaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D297DBC01F58F58A008C0D27 /* maaktabaTests.swift */,
+				D297DBC21F58F58A008C0D27 /* Info.plist */,
+			);
+			path = maaktabaTests;
+			sourceTree = "<group>";
+		};
+		D297DBCA1F58F58A008C0D27 /* maaktabaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D297DBCB1F58F58A008C0D27 /* maaktabaUITests.swift */,
+				D297DBCD1F58F58A008C0D27 /* Info.plist */,
+			);
+			path = maaktabaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D297DBA71F58F589008C0D27 /* maaktaba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D297DBD01F58F58A008C0D27 /* Build configuration list for PBXNativeTarget "maaktaba" */;
+			buildPhases = (
+				D297DBA41F58F589008C0D27 /* Sources */,
+				D297DBA51F58F589008C0D27 /* Frameworks */,
+				D297DBA61F58F589008C0D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maaktaba;
+			productName = maaktaba;
+			productReference = D297DBA81F58F589008C0D27 /* maaktaba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D297DBBB1F58F58A008C0D27 /* maaktabaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D297DBD31F58F58A008C0D27 /* Build configuration list for PBXNativeTarget "maaktabaTests" */;
+			buildPhases = (
+				D297DBB81F58F58A008C0D27 /* Sources */,
+				D297DBB91F58F58A008C0D27 /* Frameworks */,
+				D297DBBA1F58F58A008C0D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D297DBBE1F58F58A008C0D27 /* PBXTargetDependency */,
+			);
+			name = maaktabaTests;
+			productName = maaktabaTests;
+			productReference = D297DBBC1F58F58A008C0D27 /* maaktabaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D297DBC61F58F58A008C0D27 /* maaktabaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D297DBD61F58F58A008C0D27 /* Build configuration list for PBXNativeTarget "maaktabaUITests" */;
+			buildPhases = (
+				D297DBC31F58F58A008C0D27 /* Sources */,
+				D297DBC41F58F58A008C0D27 /* Frameworks */,
+				D297DBC51F58F58A008C0D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D297DBC91F58F58A008C0D27 /* PBXTargetDependency */,
+			);
+			name = maaktabaUITests;
+			productName = maaktabaUITests;
+			productReference = D297DBC71F58F58A008C0D27 /* maaktabaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D297DBA01F58F589008C0D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = maaktaba;
+				TargetAttributes = {
+					D297DBA71F58F589008C0D27 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D297DBBB1F58F58A008C0D27 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D297DBA71F58F589008C0D27;
+					};
+					D297DBC61F58F58A008C0D27 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D297DBA71F58F589008C0D27;
+					};
+				};
+			};
+			buildConfigurationList = D297DBA31F58F589008C0D27 /* Build configuration list for PBXProject "maaktaba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D297DB9F1F58F589008C0D27;
+			productRefGroup = D297DBA91F58F589008C0D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D297DBA71F58F589008C0D27 /* maaktaba */,
+				D297DBBB1F58F58A008C0D27 /* maaktabaTests */,
+				D297DBC61F58F58A008C0D27 /* maaktabaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D297DBA61F58F589008C0D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D297DBB61F58F58A008C0D27 /* LaunchScreen.storyboard in Resources */,
+				D297DBB31F58F58A008C0D27 /* Assets.xcassets in Resources */,
+				D297DBB11F58F58A008C0D27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D297DBBA1F58F58A008C0D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D297DBC51F58F58A008C0D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D297DBA41F58F589008C0D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D297DBAC1F58F58A008C0D27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D297DBB81F58F58A008C0D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D297DBC11F58F58A008C0D27 /* maaktabaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D297DBC31F58F58A008C0D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D297DBCC1F58F58A008C0D27 /* maaktabaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D297DBBE1F58F58A008C0D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D297DBA71F58F589008C0D27 /* maaktaba */;
+			targetProxy = D297DBBD1F58F58A008C0D27 /* PBXContainerItemProxy */;
+		};
+		D297DBC91F58F58A008C0D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D297DBA71F58F589008C0D27 /* maaktaba */;
+			targetProxy = D297DBC81F58F58A008C0D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D297DBAF1F58F58A008C0D27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D297DBB01F58F58A008C0D27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D297DBB41F58F58A008C0D27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D297DBB51F58F58A008C0D27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D297DBCE1F58F58A008C0D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D297DBCF1F58F58A008C0D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D297DBD11F58F58A008C0D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = maaktaba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elton.maaktaba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D297DBD21F58F58A008C0D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = maaktaba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elton.maaktaba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D297DBD41F58F58A008C0D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = maaktabaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elton.maaktabaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maaktaba.app/maaktaba";
+			};
+			name = Debug;
+		};
+		D297DBD51F58F58A008C0D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = maaktabaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elton.maaktabaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maaktaba.app/maaktaba";
+			};
+			name = Release;
+		};
+		D297DBD71F58F58A008C0D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = maaktabaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elton.maaktabaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = maaktaba;
+			};
+			name = Debug;
+		};
+		D297DBD81F58F58A008C0D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = maaktabaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elton.maaktabaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = maaktaba;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D297DBA31F58F589008C0D27 /* Build configuration list for PBXProject "maaktaba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D297DBCE1F58F58A008C0D27 /* Debug */,
+				D297DBCF1F58F58A008C0D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D297DBD01F58F58A008C0D27 /* Build configuration list for PBXNativeTarget "maaktaba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D297DBD11F58F58A008C0D27 /* Debug */,
+				D297DBD21F58F58A008C0D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D297DBD31F58F58A008C0D27 /* Build configuration list for PBXNativeTarget "maaktabaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D297DBD41F58F58A008C0D27 /* Debug */,
+				D297DBD51F58F58A008C0D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D297DBD61F58F58A008C0D27 /* Build configuration list for PBXNativeTarget "maaktabaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D297DBD71F58F58A008C0D27 /* Debug */,
+				D297DBD81F58F58A008C0D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D297DBA01F58F589008C0D27 /* Project object */;
+}
